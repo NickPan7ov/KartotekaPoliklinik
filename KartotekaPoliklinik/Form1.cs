@@ -14,7 +14,9 @@ namespace KartotekaPoliklinik
     {
         public Form1()
         {
+            int number;
             InitializeComponent();
+            Random rd = new Random();
         }
         /// <summary>
         /// 
