@@ -143,6 +143,16 @@ namespace KartotekaPoliklinik.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap SS {
+            get {
+                object obj = ResourceManager.GetObject("SS", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Авторизация {
             get {
                 object obj = ResourceManager.GetObject("Авторизация", resourceCulture);
@@ -186,6 +196,16 @@ namespace KartotekaPoliklinik.Properties {
         internal static System.Drawing.Bitmap Логин {
             get {
                 object obj = ResourceManager.GetObject("Логин", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Панфилов_Н_В__ИС_21Б {
+            get {
+                object obj = ResourceManager.GetObject("Панфилов Н.В. ИС-21Б", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -133,6 +133,12 @@
   <data name="Логин" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Логин.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Панфилов Н.В. ИС-21Б" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Панфилов Н.В. ИС-21Б.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Captcha12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captcha12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Главная форма1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Главная форма1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -157,7 +163,7 @@
   <data name="Captcha" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Captcha.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Captcha12" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Captcha12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="SS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SS.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

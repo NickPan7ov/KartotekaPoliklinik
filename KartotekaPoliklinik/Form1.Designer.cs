@@ -34,6 +34,7 @@ namespace KartotekaPoliklinik
             this.button1 = new System.Windows.Forms.Button();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.button2 = new System.Windows.Forms.Button();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
@@ -41,6 +42,7 @@ namespace KartotekaPoliklinik
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
@@ -52,23 +54,23 @@ namespace KartotekaPoliklinik
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(77, 114);
+            this.textBox1.Location = new System.Drawing.Point(35, 118);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(271, 20);
+            this.textBox1.Size = new System.Drawing.Size(244, 20);
             this.textBox1.TabIndex = 5;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(77, 171);
+            this.textBox2.Location = new System.Drawing.Point(35, 172);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(271, 20);
+            this.textBox2.Size = new System.Drawing.Size(244, 20);
             this.textBox2.TabIndex = 6;
             // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.Black;
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button1.Location = new System.Drawing.Point(174, 211);
+            this.button1.Location = new System.Drawing.Point(124, 211);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(84, 36);
             this.button1.TabIndex = 0;
@@ -78,26 +80,36 @@ namespace KartotekaPoliklinik
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(435, 171);
+            this.textBox3.Location = new System.Drawing.Point(367, 170);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(271, 20);
+            this.textBox3.Size = new System.Drawing.Size(246, 20);
             this.textBox3.TabIndex = 8;
             // 
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.Black;
             this.button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button2.Location = new System.Drawing.Point(540, 211);
+            this.button2.Location = new System.Drawing.Point(450, 211);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(84, 36);
             this.button2.TabIndex = 9;
             this.button2.Text = "Ввести";
             this.button2.UseVisualStyleBackColor = false;
             // 
+            // pictureBox8
+            // 
+            this.pictureBox8.Image = global::KartotekaPoliklinik.Properties.Resources.Панфилов_Н_В__ИС_21Б;
+            this.pictureBox8.Location = new System.Drawing.Point(12, 253);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(214, 22);
+            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox8.TabIndex = 12;
+            this.pictureBox8.TabStop = false;
+            // 
             // pictureBox7
             // 
             this.pictureBox7.Image = global::KartotekaPoliklinik.Properties.Resources.Captcha12;
-            this.pictureBox7.Location = new System.Drawing.Point(491, 40);
+            this.pictureBox7.Location = new System.Drawing.Point(405, 40);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(167, 94);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -107,7 +119,7 @@ namespace KartotekaPoliklinik
             // pictureBox6
             // 
             this.pictureBox6.Image = global::KartotekaPoliklinik.Properties.Resources.Captcha2;
-            this.pictureBox6.Location = new System.Drawing.Point(435, 143);
+            this.pictureBox6.Location = new System.Drawing.Point(367, 142);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(73, 22);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -117,7 +129,7 @@ namespace KartotekaPoliklinik
             // pictureBox5
             // 
             this.pictureBox5.Image = global::KartotekaPoliklinik.Properties.Resources.Eye;
-            this.pictureBox5.Location = new System.Drawing.Point(354, 172);
+            this.pictureBox5.Location = new System.Drawing.Point(284, 173);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(22, 19);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -127,7 +139,7 @@ namespace KartotekaPoliklinik
             // pictureBox4
             // 
             this.pictureBox4.Image = global::KartotekaPoliklinik.Properties.Resources.Пароль;
-            this.pictureBox4.Location = new System.Drawing.Point(77, 143);
+            this.pictureBox4.Location = new System.Drawing.Point(35, 144);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(73, 22);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -137,7 +149,7 @@ namespace KartotekaPoliklinik
             // pictureBox3
             // 
             this.pictureBox3.Image = global::KartotekaPoliklinik.Properties.Resources.Логин;
-            this.pictureBox3.Location = new System.Drawing.Point(77, 88);
+            this.pictureBox3.Location = new System.Drawing.Point(35, 93);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(73, 19);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -147,7 +159,7 @@ namespace KartotekaPoliklinik
             // pictureBox2
             // 
             this.pictureBox2.Image = global::KartotekaPoliklinik.Properties.Resources.Авторизация;
-            this.pictureBox2.Location = new System.Drawing.Point(148, 40);
+            this.pictureBox2.Location = new System.Drawing.Point(98, 40);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(128, 22);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -157,7 +169,7 @@ namespace KartotekaPoliklinik
             // pictureBox1
             // 
             this.pictureBox1.Image = global::KartotekaPoliklinik.Properties.Resources.Картотека_Городская_Больница;
-            this.pictureBox1.Location = new System.Drawing.Point(77, 12);
+            this.pictureBox1.Location = new System.Drawing.Point(35, 12);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(271, 22);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -169,7 +181,8 @@ namespace KartotekaPoliklinik
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(179)))), ((int)(((byte)(179)))));
-            this.ClientSize = new System.Drawing.Size(728, 259);
+            this.ClientSize = new System.Drawing.Size(639, 282);
+            this.Controls.Add(this.pictureBox8);
             this.Controls.Add(this.pictureBox7);
             this.Controls.Add(this.pictureBox6);
             this.Controls.Add(this.button2);
@@ -184,6 +197,7 @@ namespace KartotekaPoliklinik
             this.Controls.Add(this.button1);
             this.Name = "Form1";
             this.Text = "Авторизация Картотека";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
@@ -209,6 +223,7 @@ namespace KartotekaPoliklinik
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.PictureBox pictureBox6;
         private System.Windows.Forms.PictureBox pictureBox7;
+        private System.Windows.Forms.PictureBox pictureBox8;
     }
 }
 

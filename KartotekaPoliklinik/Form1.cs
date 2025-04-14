@@ -17,6 +17,7 @@ namespace KartotekaPoliklinik
             int number;
             InitializeComponent();
             Random rd = new Random();
+            
         }
         /// <summary>
         /// 
@@ -36,7 +37,7 @@ namespace KartotekaPoliklinik
             }
             else
             {
-               MessageBox.Show("Пароль неверен");
+               MessageBox.Show("Пароль или логин неверен!");
             }
         }
     }
