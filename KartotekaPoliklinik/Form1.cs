@@ -16,7 +16,11 @@ namespace KartotekaPoliklinik
         {
             InitializeComponent();
         }
-
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void button1_Click_1(object sender, EventArgs e)
         {
             if (textBox1.Text == "user" && textBox2.Text == "user")
@@ -25,6 +29,7 @@ namespace KartotekaPoliklinik
                 //MainForm fr = new MainForm();
                // fr.ShowDialog();
                 this.Hide();
+                
             }
             else
             {
