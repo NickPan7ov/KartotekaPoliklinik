@@ -25,10 +25,11 @@ namespace KartotekaPoliklinik
         {
             if (textBox1.Text == "user" && textBox2.Text == "user")
             {
-                MessageBox.Show("Успешная авторизация");
-                //MainForm fr = new MainForm();
-               // fr.ShowDialog();
                 this.Hide();
+                MessageBox.Show("Успешная авторизация");
+                MainForm fr = new MainForm();
+                fr.ShowDialog();
+                
                 
             }
             else

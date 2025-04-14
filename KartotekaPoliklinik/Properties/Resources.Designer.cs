@@ -143,6 +143,16 @@ namespace KartotekaPoliklinik.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Главная_форма1 {
+            get {
+                object obj = ResourceManager.GetObject("Главная форма1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Картотека_Городская_Больница {
             get {
                 object obj = ResourceManager.GetObject("Картотека Городская Больница", resourceCulture);
